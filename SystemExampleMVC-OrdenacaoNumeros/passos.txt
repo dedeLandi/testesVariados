@@ -1,0 +1,36 @@
+
+Descricao: Inicio da verificacao numero 0
+------------
+6405 >> 4605
+Descricao: Trocou-se o digito 6 pelo 4
+
+4605 >> 4065
+Descricao: Trocou-se o digito 6 pelo 0
+
+4065 >> 4056
+Descricao: Trocou-se o digito 6 pelo 5
+
+
+Descricao: Inicio da verificacao numero 1
+------------
+4056 >> 0456
+Descricao: Trocou-se o digito 4 pelo 0
+
+0456 >> 0456
+Descricao: Nao houve troca pois o numero 4 ja eh menor/igual que 5
+
+0456 >> 0456
+Descricao: Nao houve troca pois o numero 5 ja eh menor/igual que 6
+
+
+Descricao: Inicio da verificacao numero 2
+------------
+0456 >> 0456
+Descricao: Nao houve troca pois o numero 0 ja eh menor/igual que 4
+
+0456 >> 0456
+Descricao: Nao houve troca pois o numero 4 ja eh menor/igual que 5
+
+0456 >> 0456
+Descricao: Nao houve troca pois o numero 5 ja eh menor/igual que 6
+
