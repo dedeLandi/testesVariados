@@ -6,8 +6,6 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-import br.ufscar.systemExampleMVC.model.ContactView;
-
 public class ContactDisplayView extends JPanel implements ContactView{
     /**
 	 * 

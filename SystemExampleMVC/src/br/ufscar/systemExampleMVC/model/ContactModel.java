@@ -3,6 +3,8 @@ package br.ufscar.systemExampleMVC.model;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import br.ufscar.systemExampleMVC.view.ContactView;
+
 public class ContactModel{
     private String firstName;
     private String lastName;

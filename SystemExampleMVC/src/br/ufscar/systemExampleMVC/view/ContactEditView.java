@@ -13,7 +13,6 @@ import javax.swing.JTextField;
 
 import br.ufscar.systemExampleMVC.controller.ContactEditController;
 import br.ufscar.systemExampleMVC.model.ContactModel;
-import br.ufscar.systemExampleMVC.model.ContactView;
 
 public class ContactEditView extends JPanel implements ContactView{
     /**

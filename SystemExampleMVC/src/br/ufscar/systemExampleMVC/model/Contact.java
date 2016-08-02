@@ -1,5 +1,7 @@
 package br.ufscar.systemExampleMVC.model;
 
+import br.ufscar.systemExampleMVC.view.ContactView;
+
 public class Contact{
     private String firstName;
     private String lastName;
