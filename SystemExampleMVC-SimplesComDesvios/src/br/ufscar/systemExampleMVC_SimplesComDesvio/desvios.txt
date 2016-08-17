@@ -1,0 +1,8 @@
+Inserido um desvio que é:
+
+Na classe VisualizarPessoas na view uma instanciação da classe pessoa (model) depois chama um system out com toString.
+
+
+Inserido um desvio que é:
+
+Na classe CadastrarPessoa na view cria uma instanciação da classe pessoa (model) e chama um metodo da classe chamado cadastrar (metodo vazio) 
