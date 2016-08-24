@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<kdm:Segment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:code="http://www.eclipse.org/MoDisco/kdm/code" xmlns:kdm="http://www.eclipse.org/MoDisco/kdm/kdm" xmlns:structure="http://www.eclipse.org/MoDisco/kdm/structure" name="TargetArchitecture">
+  <model xsi:type="structure:StructureModel">
+    <structureElement xsi:type="structure:Layer" name="controller" outAggregated="//@model.0/@structureElement.0/@aggregated.0">
+      <aggregated from="//@model.0/@structureElement.0" to="//@model.0/@structureElement.2" density="2">
+        <relation xsi:type="code:Imports" href="#//@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeRelation.0"/>
+        <relation xsi:type="code:Imports" href="#//@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeRelation.1"/>
+      </aggregated>
+      <implementation xsi:type="code:Package" href="file:C:/Java/runtime-EclipseXtext/TestesArchKDM/src/br/ufscar/testesArchKDM/dcl/initialMapComDesvioComplete.xmi#//@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.0"/>
+    </structureElement>
+    <structureElement xsi:type="structure:Layer" name="view">
+      <implementation xsi:type="code:Package" href="file:C:/Java/runtime-EclipseXtext/TestesArchKDM/src/br/ufscar/testesArchKDM/dcl/initialMapComDesvioComplete.xmi#//@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.2"/>
+    </structureElement>
+    <structureElement xsi:type="structure:Layer" name="model" inAggregated="//@model.0/@structureElement.0/@aggregated.0">
+      <implementation xsi:type="code:Package" href="file:C:/Java/runtime-EclipseXtext/TestesArchKDM/src/br/ufscar/testesArchKDM/dcl/initialMapComDesvioComplete.xmi#//@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.1"/>
+    </structureElement>
+    <structureElement xsi:type="structure:Layer" name="main">
+      <implementation xsi:type="code:ClassUnit" href="file:C:/Java/runtime-EclipseXtext/TestesArchKDM/src/br/ufscar/testesArchKDM/dcl/initialMapComDesvioComplete.xmi#//@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.3"/>
+    </structureElement>
+  </model>
+</kdm:Segment>
