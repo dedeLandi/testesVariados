@@ -236,10 +236,21 @@
                       <source language="java">
                         <region file="/0/@model.2/@inventoryElement.2" language="java"/>
                       </source>
-                      <codeElement xsi:type="action:ActionElement" name="INCREMENT" kind="postfix expression">
+                      <codeElement xsi:type="action:ActionElement" name="ASSIGN" kind="assignment">
                         <source language="java">
                           <region file="/0/@model.2/@inventoryElement.2" language="java"/>
                         </source>
+                        <codeElement xsi:type="action:ActionElement" name="PLUS" kind="infix expression">
+                          <source language="java">
+                            <region file="/0/@model.2/@inventoryElement.2" language="java"/>
+                          </source>
+                          <codeElement xsi:type="code:Value" name="number literal" type="/0/@model.0/@codeElement.1/@codeElement.0" ext="1">
+                            <source language="java">
+                              <region file="/0/@model.2/@inventoryElement.2" language="java"/>
+                            </source>
+                          </codeElement>
+                        </codeElement>
+                        <actionRelation xsi:type="action:Writes" to="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.0" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.5/@codeElement.1/@codeElement.1/@codeElement.0"/>
                       </codeElement>
                     </codeElement>
                     <codeElement xsi:type="action:ActionElement" name="expression statement" kind="expression statement">

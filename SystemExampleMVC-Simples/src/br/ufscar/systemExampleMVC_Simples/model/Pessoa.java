@@ -14,7 +14,7 @@ public class Pessoa {
 
 	public Pessoa(String nome, String idade, String profissao) {
 		super();
-		Pessoa.id++;
+		Pessoa.id = Pessoa.id + 1;
 		this.nome = nome;
 		this.idade = idade;
 		this.profissao = profissao;
