@@ -4,5 +4,8 @@ Bundle-Name: TestesVariados
 Bundle-SymbolicName: TestesVariados
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Require-Bundle: org.eclipse.jface
-Import-Package: org.eclipse.core.runtime
+Require-Bundle: org.eclipse.jface,
+ org.eclipse.gmt.modisco.omg.kdm,
+ org.eclipse.emf.ecore.xmi
+Import-Package: org.eclipse.core.runtime,
+ org.eclipse.gmt.modisco.omg.kdm.kdm
