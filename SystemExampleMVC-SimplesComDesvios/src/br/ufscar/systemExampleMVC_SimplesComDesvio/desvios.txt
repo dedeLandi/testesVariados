@@ -5,4 +5,8 @@ Na classe VisualizarPessoas na view uma instanciação da classe pessoa (model) de
 
 Inserido um desvio que é:
 
-Na classe CadastrarPessoa na view cria uma instanciação da classe pessoa (model) e chama um metodo da classe chamado cadastrar (metodo vazio) 
+Na classe CadastrarPessoa na view cria uma instanciação da classe pessoa (model) e chama um metodo da classe chamado cadastrar (metodo vazio)
+
+Inserido um desvio que é:
+
+Na classe Pessoa na model uma chamada de metodo da controller no construtor 

@@ -1,5 +1,7 @@
 package br.ufscar.systemExampleMVC_SimplesComDesvio.model;
 
+import br.ufscar.systemExampleMVC_SimplesComDesvio.controller.ControllerPessoa;
+
 public class Pessoa {
 
 	private static int id;
@@ -9,6 +11,7 @@ public class Pessoa {
 	
 	
 	public Pessoa() {
+		ControllerPessoa.visualizaPessoas();
 	}
 
 
